@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/hdt7flo.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="donation-header">
+      <a href="./index.html"
+        >The Green <br />
+        Trees Initiative</a
+      >
+    </header>
+    <div class="formbody">
+      <h1 class="background-logo">GIVE HOPE TO THOSE WHO NEED IT MOST</h1>
+      <div class="container">
+        <div class="form-section">
+          <form class="formflex">
+            <h3 class="formsubhead">Your information</h3>
+            <div class="inputname">
+              <div class="firstname">
+                <label class="labelclass" id="labelfirstname" for="firstName"
+                  >FIRST NAME</label
+                >
+                <input
+                  class="inputclass"
+                  id="inputfirstname"
+                  type="text"
+                  placeholder="First name"
+                  id="firstName"
+                />
+              </div>
+              <div class="lastname">
+                <label class="labelclass" id="labellastname" for="firstName"
+                  >LAST NAME</label
+                >
+                <input
+                  class="inputclass"
+                  id="inputlastname"
+                  type="text"
+                  placeholder="Last name"
+                  required
+                />
+              </div>
+            </div>
+            <label class="labelclass">
+              STREET ADDRESS
+              <address></address
+            ></label>
+            <input
+              class="inputclass"
+              type="text"
+              placeholder="Street address"
+              id="address"
+            />
+            <div class="inputlocation">
+                <div class="city">
+                    <label class="labelclass" for="city">CITY</label>
+                    <input class="inputclass"  type="text" placeholder="City" required />
+                </div>
+                <div class="state">
+                    <label class="labelclass" for="state">STATE</label>
+                    <select class="select inputclass">
+                        <option value="Haryana">HARYANA</option>
+                      <option value="Andhra Pradesh">ANDHRA PRADESH</option>
+                      <option value="Arunachal Pradesh">ARUNACHAL PRADESH</option>
+                      <option value="Assam">ASSAM</option>
+                      <option value="Bihar">BIHAR</option>
+                      <option value="Chhattisgarh">CHHATTISGARH</option>
+                      <option value="Goa">GOA</option>
+                      <option value="Gujarat">GUJARAT</option>
+                      <option value="Himachal Pradesh">HIMACHAL PRADESH</option>
+                      <option value="Jharkhand">JHARKHAND</option>
+                      <option value="Karnataka">KARNATAKA</option>
+                      <option value="Kerala">KERALA</option>
+                      <option value="Madhya Pradesh">MADHYA PRADESH</option>
+                      <option value="Maharashtra">MAHARASHTRA</option>
+                      <option value="Manipur">MANIPUR</option>
+                      <option value="Meghalaya">MEGHALAYA</option>
+                      <option value="Mizoram">MIZORAM</option>
+                      <option value="Nagaland">NAGALAND</option>
+                      <option value="Odisha">ODISHA</option>
+                      <option value="Punjab">PUNJAB</option>
+                      <option value="Rajasthan">RAJASTHAN</option>
+                      <option value="Sikkim">SIKKIM</option>
+                      <option value="Tamil Nadu">TAMIL NADU</option>
+                      <option value="Telangana">TELANGANA</option>
+                      <option value="Tripura">TRIPURA</option>
+                      <option value="Uttar Pradesh">UTTAR PRADESH</option>
+                      <option value="Uttarakhand">UTTARAKHAND</option>
+                      <option value="West Bengal">WEST BENGAL</option>
+                      <option value="Andaman and Nicobar Islands">
+                        ANDAMAN AND NICOBAR ISLANDS
+                      </option>
+                      <option value="Chandigarh">CHANDIGARH</option>
+                      <option value="Dadra and Nagar Haveli and Daman and Diu">
+                        DADRA AND NAGAR HAVELI AND DAMAN AND DIU
+                      </option>
+                      <option value="Lakshadweep">LAKSHADWEEP</option>
+                      <option value="Delhi">DELHI</option>
+                      <option value="Puducherry">PUDUCHERRY</option>
+                    </select>
+                </div>
+                <div class="zip">
+                    <label class="labelclass" for="zip code">ZIP CODE</label>
+                    <input
+                      class="inputclass"
+                      type="text"
+                      placeholder="Zip"
+                      required
+                    />
+                </div>
+            </div>
+            <div class="inputemail">
+                <label class="labelclass" for="email">
+                    EMAIL ADDRESS
+                </label>
+                <input class="inputclass" type="email" placeholder="Email address" required />
+            </div>
+            <h3 class="formsubhead2 formsubhead">Payment information</h3>
+            <div class="creditcard">
+                <label class="labelclass" for="creditcard">
+                    CREDIT CARD NUMBER
+                </label>
+                <input class="inputclass" type="text" placeholder="Credit card number" required />
+            </div>
+            <div class="inputcredit">
+                <div class="exdate">
+                    <label class="labelclass" for="creditexpiry">EXPIRATION DATE</label>
+                    <div class="expirydate">
+                        <input class="inputclass" id="MM" type="text" placeholder="MM" required />
+                        <input class="inputclass" id="YYYY" type="text" placeholder="YYYY" required />
+                    </div>
+                </div>
+                <div class="cvv">
+                    <label class="labelclass" for="cvv">SECURITY CODE</label>
+                    <input class="inputclass" id="cvvid" type="text" placeholder="CVV" required />
+                </div>
+            </div>
+            <p class="formbottomhead">
+              Click the button to confirm your donation of $10, recurring
+              monthly.
+            </p>
+            <div class="formbottom">
+                <button class="formbutton" type="submit">Process Payment</button>
+                <a class="goBack" href="./index.html">Go back</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="subscribeSection">
+        <form class="subscribeForm" method="post">
+          <h3 class="subscribeText">
+            Subscribe to our monthly newsletter and stay up to date with all news
+            and events.
+          </h3>
+          <input
+            class="emailForm"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <button class="SubscribeButton" type="submit">Subscribe</button>
+        </form>
+        <footer class="footerSection">
+          <h3>The Green Trees Initiative</h3>
+          <div class="contactDetails">
+            CONTACT US <br> <hr>
+            <p class="address">
+              123 Anywhere St. <br> Cityname, NY 11206 <br> (123) 456-7890 <br>
+              contact@npo.org
+            </p>
+          </div>
+          <div class="socials">
+            FOLLOW US <br> <hr>
+            <a class="socialLinks" href="">Facebook</a>
+            <a class="socialLinks" href="">Twitter</a>
+            <a class="socialLinks" href="">Instagram</a>
+            <a class="socialLinks" href="">Medium</a>
+          </div>
+          <div class="learnMore">
+            LEARN MORE <br> <hr>
+            <a class="socialLinks" href="">The issue</a>
+            <a class="socialLinks" href="">How we help</a>
+            <a class="socialLinks" href="">Get involved</a>
+            <a class="socialLinks" href="">Latest news</a>
+          </div>
+          <h2 class="footerSlogan">#stop climate change</h2>
+        </footer>
+  </body>
+</html>
