@@ -1580,7 +1580,7 @@ gap: 2rem 1rem;
 .teamMemText{
 width:95%;
 padding: 1rem 0.7rem;
-margin-left: 1rem;
+margin-left: 2rem;
 margin-top: -2rem;
 z-index: 1;
 }
@@ -2059,6 +2059,7 @@ z-index: 1;
   }
   .teamMemText{
     padding: 1rem 0.9rem;
+    margin-left: 2rem;
 
   }
   .teamSectionSubhead{
