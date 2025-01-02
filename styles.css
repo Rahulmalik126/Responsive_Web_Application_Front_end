@@ -1944,11 +1944,11 @@ z-index: 1;
     margin-right: 35%;
   }
 .eventContext,.newsContext{
-  gap: 3rem;
+  gap: 2rem;
 }
   .eventtext, .newstext {
     margin-right: 20%;
-    font-size: large;
+    font-size: medium;
 }
 .eventHead,.newsHead{
   padding: 0.5rem 3rem;
@@ -2150,5 +2150,17 @@ z-index: 1;
     align-self: center;
     min-width: 45%;
     margin: 4% 5%;
+  }
+  .card1,.card2,.card3{
+    transform: scale(1);
+  }
+  .card1{
+    justify-self: end;
+  }
+  .card3{
+    justify-self: start;
+  }
+  .card2{
+    justify-self: center;
   }
 }
