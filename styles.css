@@ -1026,6 +1026,27 @@ margin-bottom: 5%;
   margin-right: 2%;
   position: absolute;
 }
+.dots-container{
+  grid-row: 4/5;
+  grid-column: 2/3;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap:1rem;
+}
+.dot-2 {
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: white;
+  border-radius: 50%;
+}
+.dot-1 {
+  background-color: #354463;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+}
 .donation-header {
   display: grid;
   grid-template-rows: 6rem;
@@ -1236,7 +1257,7 @@ margin-bottom: 5%;
   .teamMem3Img1,
   .teamMem4Img1,
   .teamMem5Img1,
-  .teamMem6Img1,.WhatWeDoButtonAd2, .WhatWeDoButtonEd2, .WhatWeDoButtonTree2 {
+  .teamMem6Img1,.WhatWeDoButtonAd2, .WhatWeDoButtonEd2, .WhatWeDoButtonTree2, .dots-container{
     display: none;
   }
   .book2,
