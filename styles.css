@@ -2124,8 +2124,6 @@ gap:0;
   }
   .statement{
     margin: 0;
-  }
-  .issuestatement{
-    height:33rem;
+    margin-bottom:1rem;
   }
 }
