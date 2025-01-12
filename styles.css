@@ -3,12 +3,12 @@
   box-sizing: border-box;
   list-style: none;
   font-size: 1rem;
-  width:100%;
+  width: 100%;
 }
-body{
-display:flex;
-flex-direction:column;
-align-items:center;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .TreeImg2,
 .TreeImg3,
@@ -42,47 +42,50 @@ align-items:center;
 .cardyear2,
 .card2,
 .cardyear3,
-.card3, .WhatWeDoButtonAd1, .WhatWeDoButtonEd1, .WhatWeDoButtonTree1  {
+.card3,
+.WhatWeDoButtonAd1,
+.WhatWeDoButtonEd1,
+.WhatWeDoButtonTree1 {
   display: none;
 }
-nav{
-  display:flex;
+nav {
+  display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   width: 80%;
-  gap:2rem;
-  margin:2rem 0;
+  gap: 2rem;
+  margin: 2rem 0;
 }
 
 .navbar {
   display: flex;
-  align-self:center;
+  align-self: center;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 .logo {
   font-family: Arial, Helvetica, sans-serif;
   color: #344464;
   font-size: 1.1rem;
-  font-weight:bolder;
+  font-weight: bolder;
 }
-.donatebtnflex{
-display:flex;
+.donatebtnflex {
+  display: flex;
 }
 .navigation {
   display: flex;
   flex-direction: column;
-  gap:0.5rem;
-  align-self:end;
-  width:13rem; 
+  gap: 0.5rem;
+  align-self: end;
+  width: 13rem;
 }
 .navOptions {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   color: #344464;
   font-weight: 300;
-  font-size:0.9rem;
+  font-size: 0.9rem;
 }
 .navOptions:hover {
   color: #427ef5;
@@ -95,639 +98,652 @@ display:flex;
   border-radius: 2rem;
   padding: 0.5rem 4rem;
   background-color: #c1f7d5;
-  text-align:center;
-  align-self:center;
+  text-align: center;
+  align-self: center;
   color: #344464;
   text-decoration: none;
 }
 .IssueSection {
-display:flex;
-justify-content:center;
-position: relative;
-background-image: url(./Assets/annie-spratt-135307-unsplash.png);
-background-repeat: no-repeat;
-background-position: 80%;
-background-size: cover;
-background-color:#344464;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-image: url(./Assets/annie-spratt-135307-unsplash.png);
+  background-repeat: no-repeat;
+  background-position: 80%;
+  background-size: cover;
+  background-color: #344464;
 }
-.IssueSectionabout{
-  display:flex;
-  justify-content:center;
+.IssueSectionabout {
+  display: flex;
+  justify-content: center;
   position: relative;
   background-image: url("./Assets/annie-spratt-427339-unsplash.png");
   background-position: 28%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color:#344464;
+  background-color: #344464;
 }
 
-.issueflex{
-display:flex;
-flex-direction:column;
-width:80%;
-margin:3rem 0;
+.issueflex {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 3rem 0;
 }
-.issueflexabout{
-  display:flex;
-flex-direction:column;
-width:80%;
-margin:3rem 0;
+.issueflexabout {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 3rem 0;
 }
 .slogan {
-font-size: 2.5rem;
-color: white;
-font-family: "flood-std", sans-serif;
-margin-bottom:8rem;
+  font-size: 2.5rem;
+  color: white;
+  font-family: "flood-std", sans-serif;
+  margin-bottom: 8rem;
 }
 .sloganabout {
-font-size: 2.5rem;
-color: white;
-font-family: "flood-std", sans-serif;
-margin-bottom:8rem;
+  font-size: 2.5rem;
+  color: white;
+  font-family: "flood-std", sans-serif;
+  margin-bottom: 8rem;
 }
 .issuestatement {
-display: flex;
-flex-direction: column;
-background-color: white;
-position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: relative;
 }
 .issuehead {
-font-family: Arial, Helvetica, sans-serif;
-font-size: large;
-color: white;
-background-color: #344464;
-padding: 0.7rem 1rem;
-align-self: center;
-font-weight: 400;
-width:10rem;
-text-align:center;
-position:absolute;
-top:-1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  color: white;
+  background-color: #344464;
+  padding: 0.7rem 1rem;
+  align-self: center;
+  font-weight: 400;
+  width: 10rem;
+  text-align: center;
+  position: absolute;
+  top: -1rem;
 }
 .statement {
-font-family: Arial, Helvetica, sans-serif;
-font-size: x-large;
-color: #344464;
-font-weight: bolder;
-text-align:center;
-padding:3rem 1rem 1rem 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  color: #344464;
+  font-weight: bolder;
+  text-align: center;
+  padding: 3rem 1rem 1rem 1rem;
 }
 
 .ReadMore {
-padding: 0 2rem 2rem 2rem;
-text-align:center;
-font-family: "roboto", sans-serif;
-color: #344464;
-font-weight: 400;
+  padding: 0 2rem 2rem 2rem;
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  color: #344464;
+  font-weight: 400;
 }
 .TakeActionSection {
-background-color: #c1f7d5;
-display:flex;
-justify-content:center;
-align-items:center;
+  background-color: #c1f7d5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .TakeActionflex {
-display: flex;
-flex-direction:column;
-position: relative;
-justify-content:center;
-align-items:center;
-width:80%;
-margin:3rem 0;
-gap:3rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 3rem 0;
+  gap: 3rem;
 }
 .actionhead {
-justify-self: center;
-background-color: #344464;
-color: white;
-font-family: Arial, Helvetica, sans-serif;
-align-self: center;
-padding: 0.7rem 1rem;
-position: absolute;
-top: -4.5rem;
-font-weight: 400;
-width:10rem;
-text-align:center;
+  justify-self: center;
+  background-color: #344464;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  align-self: center;
+  padding: 0.7rem 1rem;
+  position: absolute;
+  top: -4.5rem;
+  font-weight: 400;
+  width: 10rem;
+  text-align: center;
 }
-.actionrow1{
-display:flex;
-gap:2rem;
+.actionrow1 {
+  display: flex;
+  gap: 2rem;
 }
-.actionrow2{
-display:flex;
-gap:2rem;
+.actionrow2 {
+  display: flex;
+  gap: 2rem;
 }
 .actionboxsubheading {
-font-family: Arial, Helvetica, sans-serif;
-color: #344464;
-font-weight: bolder;
-font-size: 1.3rem;
-margin-bottom: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #344464;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
 }
 .actionboxtext {
-font-family: "Roboto", sans-serif;
-font-weight: 300;
-font-size: 0.9rem;
-color: #344464;
-line-height:1.2rem
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: #344464;
+  line-height: 1.2rem;
 }
-.WhatWeDoSection{
-background-color: #344464;
-display:flex;
-justify-content:center;
+.WhatWeDoSection {
+  background-color: #344464;
+  display: flex;
+  justify-content: center;
 }
 
-.WhatWeDoflex{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap:1.5rem;
-width:80%;
-margin:2rem 0;
+.WhatWeDoflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: 80%;
+  margin: 2rem 0;
 }
-.WhatWeDohead{
-color:#344464;
-background-color: white;
-padding: 0.7rem 1rem;
-font-family: Arial, Helvetica, sans-serif;
-font-size: large;
-font-weight: bold;
-margin: 2rem 5rem;
-text-align: center;
-width:10rem;
+.WhatWeDohead {
+  color: #344464;
+  background-color: white;
+  padding: 0.7rem 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  margin: 2rem 5rem;
+  text-align: center;
+  width: 10rem;
 }
-.WhatWeDointro{
-color: white;
-text-align: center;
-font-family: Arial, Helvetica, sans-serif;
-font-size: larger;
-font-weight: bolder;
-margin: 0 1rem;
+.WhatWeDointro {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+  margin: 0 1rem;
 }
-.WhatWeDocards{
-display: flex;
-flex-direction: column;
-gap: 4rem;
-margin-top: 1.5rem;
+.WhatWeDocards {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 1.5rem;
 }
-.Tree-box,.Eductaion-box,.Advocacy-box{
-display: flex;
-flex-direction: column;
-background-color: white;
-justify-content: center;
-align-items: center;
-gap: 2rem;
-
+.Tree-box,
+.Eductaion-box,
+.Advocacy-box {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
-.treeImgBox, .eduImgBox, .adImgBox{
-display: flex;
-flex-direction: column;
-width: 85%;
-align-items: center;
+.treeImgBox,
+.eduImgBox,
+.adImgBox {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  align-items: center;
 }
-.TreeImg1,.advocacyimg1,.educationimg1{
-width: 100%;
-margin-top: -2rem;
-
+.TreeImg1,
+.advocacyimg1,
+.educationimg1 {
+  width: 100%;
+  margin-top: -2rem;
 }
-.treeboxcontext,.educationboxcontext,.advocacyboxContext{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap:2rem;
-margin: 1rem;
-width:85%
+.treeboxcontext,
+.educationboxcontext,
+.advocacyboxContext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem;
+  width: 85%;
 }
-.WhatWeDosubheading{
-font-size: larger;
-font-family: Arial, Helvetica, sans-serif;
-color: #344464;
-font-weight: bolder;
-text-align: center;
-
+.WhatWeDosubheading {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #344464;
+  font-weight: bolder;
+  text-align: center;
 }
-.WhatWeDoBoxtext{
-text-align: center;
-color: #344464;
-font-family: Arial, Helvetica, sans-serif;
-font-size: medium;
-font-weight: 400;
-line-height: 1.5rem;
-
+.WhatWeDoBoxtext {
+  text-align: center;
+  color: #344464;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: 400;
+  line-height: 1.5rem;
 }
-.WhatWeDoButtonTree2, .WhatWeDoButtonEd2, .WhatWeDoButtonAd2{
-background-color: #c1f7d5;
-text-decoration: none;
-background-color: #c1f7d5;
-border: 0.1rem solid #c1f7d5;
-border-radius: 2rem;
-color: #344464;
-padding: 1rem 1rem;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bold;
-width:65%;
-text-align:center;
+.WhatWeDoButtonTree2,
+.WhatWeDoButtonEd2,
+.WhatWeDoButtonAd2 {
+  background-color: #c1f7d5;
+  text-decoration: none;
+  background-color: #c1f7d5;
+  border: 0.1rem solid #c1f7d5;
+  border-radius: 2rem;
+  color: #344464;
+  padding: 1rem 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  width: 65%;
+  text-align: center;
 }
-.infoSection{
-display:flex;
-background-image: url("./Assets/did-you-know-background.png");
-background-size: cover;
-background-position: 10% 40%;
-background-repeat: no-repeat;
-background-color: #344464;
-justify-content:center;
+.infoSection {
+  display: flex;
+  background-image: url("./Assets/did-you-know-background.png");
+  background-size: cover;
+  background-position: 10% 40%;
+  background-repeat: no-repeat;
+  background-color: #344464;
+  justify-content: center;
 }
 .infoSectionflex {
-display: flex;
-flex-direction: column;
-width: 80%;
-justify-content: start;
-gap: 2rem;
-margin:2rem 0;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: start;
+  gap: 2rem;
+  margin: 2rem 0;
 }
-.info-header{
-display: flex;
-flex-direction: column;
+.info-header {
+  display: flex;
+  flex-direction: column;
 }
 .infosectionbox {
-display: flex;
-flex-direction: column;
-align-self: center;
-position: relative;
-gap: 2rem;
-margin-top:2rem;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  position: relative;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 .slogan2 {
-font-family: "flood-std";
-font-size: 2.8rem;
-font-weight: 500;
-color: white;
+  font-family: "flood-std";
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: white;
 }
 .actionButton {
-border: 0.2rem solid #c1f7d5;
-border-radius: 2rem;
-color: #344464;
-background-color: #c1f7d5;
-text-decoration: none;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bolder;
-align-self: flex-start;
-padding: 2% 3%;
-width:8rem;
-margin-top:1rem;
+  border: 0.2rem solid #c1f7d5;
+  border-radius: 2rem;
+  color: #344464;
+  background-color: #c1f7d5;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  align-self: flex-start;
+  padding: 2% 3%;
+  width: 8rem;
+  margin-top: 1rem;
 }
 .dywHead {
-color: white;
-background-color: #344464;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 400;
-font-size: medium;
-padding: 0.9rem 0;
-text-align:center;
-align-self:center;
-position:absolute;
-top:-1.5rem;
-z-index:1;
-width:10rem;
+  color: white;
+  background-color: #344464;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: medium;
+  padding: 0.9rem 0;
+  text-align: center;
+  align-self: center;
+  position: absolute;
+  top: -1.5rem;
+  z-index: 1;
+  width: 10rem;
 }
 .infotext > span {
-color: #344464;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 1.3rem;
-font-weight: bolder;
-margin:2rem 1rem 1rem 1rem;;
-display: flex;
-gap: 6%;
+  color: #344464;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin: 2rem 1rem 1rem 1rem;
+  display: flex;
+  gap: 6%;
 }
-.infosectionbox{
-display: flex;
-flex-direction: column;
-
+.infosectionbox {
+  display: flex;
+  flex-direction: column;
 }
 .icon {
-display: flex;
-flex-direction: column;
-align-items:end;
-justify-content:space-evenly;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-evenly;
 }
-.twittericon, .facebookicon {
-width: 2rem;
-height: 2rem;
-margin-right: 1.5rem;
-margin-left: 0.5rem;
-border: 0.1rem solid #c1f7d5;
-border-radius: 50%;
-background-color: #c1f7d5;
-background-image: url("./Assets/iconmonstr-twitter-1.png");
-background-position: 50% 50%;
-background-repeat: no-repeat;
+.twittericon,
+.facebookicon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1.5rem;
+  margin-left: 0.5rem;
+  border: 0.1rem solid #c1f7d5;
+  border-radius: 50%;
+  background-color: #c1f7d5;
+  background-image: url("./Assets/iconmonstr-twitter-1.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
-.facebookicon{
-background-image: url(./Assets/iconmonstr-facebook-1.png);
+.facebookicon {
+  background-image: url(./Assets/iconmonstr-facebook-1.png);
 }
 .infotext > p {
-font-family: "Roboto", sans-serif;
-font-weight: 300;
-font-size: 0.9rem;
-color: #344464;
-margin:2rem 1rem 1rem 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: #344464;
+  margin: 2rem 1rem 1rem 1rem;
 }
-.first-info, .second-info, .third-info, .forth-info {
-align-self: center;
-background-color: white;
-display: flex;
+.first-info,
+.second-info,
+.third-info,
+.forth-info {
+  align-self: center;
+  background-color: white;
+  display: flex;
 }
-.storiesSection{
-display:flex;
-justify-content:center;
-background-color:white;
+.storiesSection {
+  display: flex;
+  justify-content: center;
+  background-color: white;
 }
-.storiesSectionflex{
-display:flex;
-flex-direction:column;
-width:80%;
-margin:2rem 0;
-justify-content:center;
-align-items:center;
-gap:1rem;
+.storiesSectionflex {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 2rem 0;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 .storieshead {
-z-index: 1;
-background-color: #344464;
-color: white;
-font-size: large;
-font-family: Arial, Helvetica, sans-serif;
-justify-self: center;
-padding: 0.5rem 1rem;
-font-weight: 400;
-margin-bottom: -2rem;
-width:10rem;
-text-align:center;
+  z-index: 1;
+  background-color: #344464;
+  color: white;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-self: center;
+  padding: 0.5rem 1rem;
+  font-weight: 400;
+  margin-bottom: -2rem;
+  width: 10rem;
+  text-align: center;
 }
 .storiesImg1 {
-justify-self: center;
-width: 100%;
-position:relative;
+  justify-self: center;
+  width: 100%;
+  position: relative;
 }
 .storiesText {
-justify-self: center;
-align-self: start;
-background-color: #344464;
-color: white;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 1.5rem;
-font-weight: bolder;
-text-align: center;
-padding: 9% 5%;
+  justify-self: center;
+  align-self: start;
+  background-color: #344464;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align: center;
+  padding: 9% 5%;
 }
 .storieswriter {
-font-family: Arial, Helvetica, sans-serif;
-font-size: 0.8rem;
-font-weight: 300;
-margin-top: 8%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-top: 8%;
 }
 .storiesButton {
-align-self: center;
-background-color: #c1f7d5;
-border: 0.2rem solid #c1f7d5;
-border-radius: 2rem;
-color: #344464;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bold;
-font-size: 1.3rem;
-text-decoration: none;
-text-align: center;
-padding:0.7rem 1rem;
-width:70%
+  align-self: center;
+  background-color: #c1f7d5;
+  border: 0.2rem solid #c1f7d5;
+  border-radius: 2rem;
+  color: #344464;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.7rem 1rem;
+  width: 70%;
 }
-.EventandNewsSection{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-background-color: #344464;
+.EventandNewsSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #344464;
 }
-.slogan3{
-text-align: center;
-color: white;
-font-family: "flood-std",Arial, Helvetica, sans-serif;
-font-size: xx-large;
-padding: 1rem 1rem;
-width:80%;
-margin:2rem 0;
+.slogan3 {
+  text-align: center;
+  color: white;
+  font-family: "flood-std", Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  padding: 1rem 1rem;
+  width: 80%;
+  margin: 2rem 0;
 }
-.eventSection, .newsSection{
-display: flex;
-flex-direction: column;
-width:80%;
-align-self: center;
-text-align: center;
-justify-content: center;
-align-items: center;
-margin: 1.5rem;
-gap: 1.5rem;
-position: relative;
-margin-bottom: 5%;
+.eventSection,
+.newsSection {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+  gap: 1.5rem;
+  position: relative;
+  margin-bottom: 5%;
 }
-.eventContext,.newsContext{
-display: flex;
-flex-direction: column;
-justify-content: center;
-gap: 1rem;
+.eventContext,
+.newsContext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
 }
-.eventHead, .newsHead{
-background-color: white;
-color: #344464;
-font-size: medium;
-font-family: Arial, Helvetica, sans-serif;
-padding: 0.5rem 0.7rem;
-z-index: 1;
-position: absolute;
-top: -4%;
-width:10rem;
-align-self: center;
+.eventHead,
+.newsHead {
+  background-color: white;
+  color: #344464;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.5rem 0.7rem;
+  z-index: 1;
+  position: absolute;
+  top: -4%;
+  width: 10rem;
+  align-self: center;
 }
-.eventsubheading1, .newssubheading1{
-color: white;
-font-family: Arial, Helvetica, sans-serif;
-font-size: larger;
-text-align: center;
-align-self: center;
+.eventsubheading1,
+.newssubheading1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  text-align: center;
+  align-self: center;
+}
+.eventtext,
+.newstext {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  font-weight: 300;
+  text-align: center;
+}
+.eventButton,
+.newsButton {
+  color: #344464;
+  text-decoration: none;
+  background-color: #c1f7d5;
+  padding: 0.5rem 1rem;
+  border: 0.2rem solid #c1f7d5;
+  border-radius: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: large;
+  align-self: center;
+  width: 10rem;
+}
 
+.eventTreeImg1,
+.newsMeetingImg1 {
+  width: 100%;
+  align-self: center;
 }
-.eventtext, .newstext{
-color: white;
-font-family: "Roboto",sans-serif;
-font-size: small;
-font-weight: 300;
-text-align: center;
-}
-.eventButton, .newsButton{
-color: #344464;
-text-decoration: none;
-background-color: #c1f7d5;
-padding: 0.5rem 1rem;
-border:0.2rem solid #c1f7d5;
-border-radius: 2rem;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bold;
-font-size: large;
-align-self: center;
-width:10rem;
-}
-
-.eventTreeImg1, .newsMeetingImg1{
-width: 100%;
-align-self: center;
-}
-.newsSection{
-margin-top:4rem;
+.newsSection {
+  margin-top: 4rem;
 }
 .subscribeSection {
-display: flex;
-background-color: #c1f7d5;
-justify-content:center;
+  display: flex;
+  background-color: #c1f7d5;
+  justify-content: center;
 }
-.subsflex{
-display:flex;
-flex-direction:column;
-width:80%;
+.subsflex {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
 }
-.subsinputsection{
-display:flex;
-gap:1rem;
-
+.subsinputsection {
+  display: flex;
+  gap: 1rem;
 }
 .subscribeText {
-color: #344464;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bolder;
-font-size: x-large;
-justify-self: center;
-align-self: center;
-margin: 8%;
+  color: #344464;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+  justify-self: center;
+  align-self: center;
+  margin: 8%;
 }
 .emailForm {
-justify-self: end;
-align-self: center;
-background-color: white;
-font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: small;
-border: 0.1rem solid white;
-border-radius: 2rem;
-text-align: center;
-padding: 2% 1%;
-width:60%;
+  justify-self: end;
+  align-self: center;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: small;
+  border: 0.1rem solid white;
+  border-radius: 2rem;
+  text-align: center;
+  padding: 2% 1%;
+  width: 60%;
 }
 .emailForm::placeholder {
-color: #344464;
+  color: #344464;
 }
 .SubscribeButton {
-justify-self: start;
-align-self: center;
-background-color: #344464;
-color: #c1f7d5;
-font-family: Arial, Helvetica, sans-serif;
-font-size: small;
-font-weight: bold;
-border: 0.1rem solid #344464;
-border-radius: 2rem;
-text-align: center;;
-padding: 2% 1%;
-width:30%;
-margin:1rem 0;
+  justify-self: start;
+  align-self: center;
+  background-color: #344464;
+  color: #c1f7d5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  border: 0.1rem solid #344464;
+  border-radius: 2rem;
+  text-align: center;
+  padding: 2% 1%;
+  width: 30%;
+  margin: 1rem 0;
 }
-.footerflex{
-display:flex;
-width:80%;
+.footerflex {
+  display: flex;
+  width: 80%;
 }
 .footerSection {
-display: grid;
-grid-template-columns: repeat(2,1fr);
-grid-template-rows: 10rem 10rem 10rem;
-color: #344464;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 10rem 10rem 10rem;
+  color: #344464;
 }
 .footerSection > h3 {
-grid-row: 1/2;
-grid-column: 1/2;
-justify-self: center;
-align-self: center;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bolder;
-justify-self: start;
-align-self: center;
-width:3rem;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  justify-self: center;
+  align-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  justify-self: start;
+  align-self: center;
+  width: 3rem;
 }
 .contactDetails {
-grid-row: 1/2;
-grid-column: 2/3;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 500;
-font-size: x-small;
-justify-self: start;
-align-self: center;
-display: flex;
-flex-direction: column;
-gap: 2%;
+  grid-row: 1/2;
+  grid-column: 2/3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: x-small;
+  justify-self: start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
 }
 .address {
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 100;
-font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: small;
 }
 .socials {
-grid-row: 2/3;
-grid-column: 1/2;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 500;
-font-size: x-small;
-justify-self: start;
-align-self: center;
-display: flex;
-flex-direction: column;
-gap: 2%;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: x-small;
+  justify-self: start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
 }
 .learnMore {
-grid-row: 2/3;
-grid-column: 2/3;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 500;
-font-size: x-small;
-justify-self: start;
-align-self: center;
-display: flex;
-flex-direction: column;
-gap: 2%;
-
+  grid-row: 2/3;
+  grid-column: 2/3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: x-small;
+  justify-self: start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
 }
 .socialLinks {
-font-size: small;
-color: #344464;
+  font-size: small;
+  color: #344464;
 }
 .footerSlogan {
-grid-row: 3/4;
-grid-column: 2/3;
-font-family: "flood-std", Arial, Helvetica, sans-serif;
-font-size: 2rem;
-justify-self: end;
-text-align: end;
+  grid-row: 3/4;
+  grid-column: 2/3;
+  font-family: "flood-std", Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  justify-self: end;
+  text-align: end;
 }
-.mandvbg{
-  background-color:#344464;
-  display:flex;
-  justify-content:center;
-  padding:2rem 0;
+.mandvbg {
+  background-color: #344464;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
 }
 .missionAndValuesSection {
   display: grid;
   grid-template-rows: 4rem 10rem 15rem 15rem 15rem 15rem;
-  grid-template-columns:repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   background-color: #344464;
-  gap:0 1rem;
-  width:80%;
+  gap: 0 1rem;
+  width: 80%;
 }
 .missionAndValueshead {
   grid-row: 1/2;
@@ -738,11 +754,11 @@ text-align: end;
   font-weight: 400;
   font-size: medium;
   justify-self: center;
-  align-self: center;;
-  padding:1rem 1rem;
+  align-self: center;
+  padding: 1rem 1rem;
   z-index: 1;
-  text-align:center;
-  width:12rem;
+  text-align: center;
+  width: 12rem;
 }
 .missionAndValuesintro {
   grid-row: 2/3;
@@ -753,7 +769,7 @@ text-align: end;
   font-weight: bold;
   text-align: center;
   justify-self: center;
-  margin:1rem 0;
+  margin: 1rem 0;
 }
 
 .openmind {
@@ -796,18 +812,18 @@ text-align: end;
 .optimistic,
 .plant,
 .protect {
-  display:flex;
-  flex-direction:column;
-  gap:0.5rem;
-  justify-content:center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  position:relative;
-  width:100%;
+  position: relative;
+  width: 100%;
 }
-.heading{
-  font-size:0.8rem;
+.heading {
+  font-size: 0.8rem;
   width: 5;
 }
 .openbookText,
@@ -831,120 +847,120 @@ text-align: end;
 .sun1,
 .person1,
 .people1 {
-  justify-self:start;
-    width:3.5rem;
-  top:-6rem;
+  justify-self: start;
+  width: 3.5rem;
+  top: -6rem;
 }
 .teamSection {
   display: flex;
   flex-direction: column;
-   gap: 2% 3%;
-   margin: 1.5rem;
-  width:80%;
- }
- .teamSectionHead {
-   background-color: #344464;
-   color: white;
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: 200;
-   justify-self: center;
-   align-self: center;
-   padding: 0.6rem 0.8rem;
-   width:10rem;
-   text-align:center;
- }
- .teamSectionSubhead {
-   justify-self: center;
-   align-self: center;
-   color: #344464;
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: bolder;
-   font-size: x-large;
-   margin: 5%;
-   text-align: center;
- }
- .teamSectionText {
-   grid-row: 3/4;
-   grid-column: 2/4;
-   color: #344464;
-   font-family: "Roboto", sans-serif;
-   font-size: small;
-   font-weight: 300;
-   justify-self: center;
-   align-self: center;
-   text-align: center;
- }
- .teamSectionGrid{
-   display: grid;
-   grid-template-columns: repeat(2,1fr);
-   grid-template-rows: repeat(3,1fr);
-   gap:1rem 1rem;
-   margin-top: 1rem;
- }
+  gap: 2% 3%;
+  margin: 1.5rem;
+  width: 80%;
+}
+.teamSectionHead {
+  background-color: #344464;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  justify-self: center;
+  align-self: center;
+  padding: 0.6rem 0.8rem;
+  width: 10rem;
+  text-align: center;
+}
+.teamSectionSubhead {
+  justify-self: center;
+  align-self: center;
+  color: #344464;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+  margin: 5%;
+  text-align: center;
+}
+.teamSectionText {
+  grid-row: 3/4;
+  grid-column: 2/4;
+  color: #344464;
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  font-weight: 300;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+.teamSectionGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem 1rem;
+  margin-top: 1rem;
+}
 
- .teamMem1 {
-   grid-row: 1/2;
-   grid-column: 1/2;
- }
- .teamMem2 {
-   grid-row: 1/2;
-   grid-column: 2/3;
- }
- .teamMem3 {
-   grid-row: 2/3;
-   grid-column: 1/2;
- }
- .teamMem4 {
-   grid-row: 2/3;
-   grid-column: 2/3;
- }
- .teamMem5 {
-   grid-row: 3/4;
-   grid-column: 1/2;
- }
- .teamMem6 {
-   grid-row: 3/4;
-   grid-column: 2/3;
- }
- .teamMem1,
- .teamMem2,
- .teamMem3,
- .teamMem4,
- .teamMem5,
- .teamMem6 {
-   align-self: center;
-   justify-self: center;
-   color: white;
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: 300;
-   padding: 1% 2%;
-   display: flex;
-   flex-direction: column;
-   /* width: 90%; */
- }
- .teamMem1Img1,
- .teamMem2Img1,
- .teamMem3Img1,
- .teamMem4Img1,
- .teamMem5Img1,
- .teamMem6Img1 {
-   width: 100%;
- }
- .teamMemText {
-   background-color: #344464;
-   text-align: center;
-   font-family: "Roboto", sans-serif;
-   font-weight: 300;
-   padding: 0.3rem 0.5rem;
- }
-.impactSection{
-  display:flex;
+.teamMem1 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+.teamMem2 {
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+.teamMem3 {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+.teamMem4 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+.teamMem5 {
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+.teamMem6 {
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+.teamMem1,
+.teamMem2,
+.teamMem3,
+.teamMem4,
+.teamMem5,
+.teamMem6 {
+  align-self: center;
+  justify-self: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  padding: 1% 2%;
+  display: flex;
+  flex-direction: column;
+  /* width: 90%; */
+}
+.teamMem1Img1,
+.teamMem2Img1,
+.teamMem3Img1,
+.teamMem4Img1,
+.teamMem5Img1,
+.teamMem6Img1 {
+  width: 100%;
+}
+.teamMemText {
+  background-color: #344464;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding: 0.3rem 0.5rem;
+}
+.impactSection {
+  display: flex;
   background-image: url("./Assets/Impact\ Background.png");
   background-color: #344464;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 80% 20%;
-  justify-content:center;
+  justify-content: center;
 }
 .impactSectionflex {
   display: flex;
@@ -953,17 +969,17 @@ text-align: end;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  width:80%;
-  margin:2rem 0;
+  width: 80%;
+  margin: 2rem 0;
 }
 .impactHead {
   color: #344464;
   background-color: white;
   padding: 0.5rem 1rem;
-  margin:2rem 0;
+  margin: 2rem 0;
   font-size: large;
   align-self: center;
-  width:10rem;
+  width: 10rem;
 }
 .impactSubHead {
   font-size: x-large;
@@ -982,16 +998,17 @@ text-align: end;
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
 }
-.flex1, .flex2{
-  display:flex;
-  flex-direction:column;
+.flex1,
+.flex2 {
+  display: flex;
+  flex-direction: column;
 }
-.dots-container{
+.dots-container {
   justify-content: center;
   align-items: center;
   display: flex;
-  gap:1rem;
-  margin-top:2rem;
+  gap: 1rem;
+  margin-top: 2rem;
 }
 .dot-2 {
   width: 0.8rem;
@@ -1006,82 +1023,81 @@ text-align: end;
   border-radius: 50%;
   border: 1px solid #aaa;
 }
-.cards{
-  display:flex;
-  justify-content:center;
-  background-color:#344464;
+.cards {
+  display: flex;
+  justify-content: center;
+  background-color: #344464;
 }
-.cardflex{
-  display:flex;
-  flex-direction:column;
-  width:80%;
-  margin:2rem 0;
-  position:relative;
-  z-index:1;
+.cardflex {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 2rem 0;
+  position: relative;
+  z-index: 1;
 }
-.card{
-  display:flex;
-  flex-direction:column;
-  gap:2rem;
-  background-color:white;
-  width:30rem;
-  align-items:center;
-  position:relative;
-  height:32rem;
-  margin-top:2rem;
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: white;
+  width: 30rem;
+  align-items: center;
+  position: relative;
+  height: 32rem;
+  margin-top: 2rem;
 }
-.scroll{
-  display:flex;
-  gap:5rem;
-  overflow:scroll;
+.scroll {
+  display: flex;
+  gap: 5rem;
+  overflow: scroll;
   scrollbar-width: none;
 }
-.cardheading{
-  display:flex;
-  position:relative;
+.cardheading {
+  display: flex;
+  position: relative;
 }
-.cardheading>h3{
-  color:white;
-  font-family:"flood-std";
-  font-size:2rem;
-  margin-bottom:2rem;
-
+.cardheading > h3 {
+  color: white;
+  font-family: "flood-std";
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
-.cardyear{
-  text-align:center;
-  width:10rem;
-  position:absolute;
-  background-color:white;
-  color:#344464;
-  padding:0.5rem 1rem;
-  margin-top:-1rem;
+.cardyear {
+  text-align: center;
+  width: 10rem;
+  position: absolute;
+  background-color: white;
+  color: #344464;
+  padding: 0.5rem 1rem;
+  margin-top: -1rem;
 }
-.cardicon{
-  position:absolute;
+.cardicon {
+  position: absolute;
   background-color: #c1f7d5;
   border: 0.1rem solid #c1f7d5;
   border-radius: 12rem;
   padding: 0.8rem 0.5rem;
   width: 3.5rem;
-  top:18rem;
-right:0rem;
-  z-index:2;
+  top: 18rem;
+  right: 0rem;
+  z-index: 2;
 }
-.cardsubhead{
+.cardsubhead {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size:1.2rem;
-  padding:0.1rem 1rem;
-  color:#344464;
+  font-size: 1.2rem;
+  padding: 0.1rem 1rem;
+  color: #344464;
 }
-.cardtext{
+.cardtext {
   font-family: Arial, Helvetica, sans-serif;
-  font-size:1rem;
-  padding:0.1rem 1rem;
-  color:#344464;
+  font-size: 1rem;
+  padding: 0.1rem 1rem;
+  color: #344464;
 }
-.card1Img{
-  width:17rem;
+.card1Img {
+  width: 17rem;
 }
 .cardButton {
   border: 0.1rem solid #c1f7d5;
@@ -1090,9 +1106,9 @@ right:0rem;
   align-self: start;
   text-align: center;
   text-decoration: none;
-  width:10rem;
-  padding:0.5rem 1rem;
-  margin-left:1rem;
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
 }
 .cardButton > a {
   color: #344464;
@@ -1117,10 +1133,10 @@ right:0rem;
   text-align: center;
   padding: 0 1rem;
 }
-.formbg{
-display:flex;
-justify-content:center;
-   background-image: url(./Assets/annie-spratt-427340-unsplash.png);
+.formbg {
+  display: flex;
+  justify-content: center;
+  background-image: url(./Assets/annie-spratt-427340-unsplash.png);
   background-size: cover;
   background-position: 50% 20%;
   background-color: #465b85;
@@ -1129,7 +1145,7 @@ justify-content:center;
   display: grid;
   grid-template-rows: 8rem 57rem;
   justify-content: center;
-  width:80%;
+  width: 80%;
 }
 .background-logo {
   grid-row: 1/2;
@@ -1146,8 +1162,8 @@ justify-content:center;
   background-color: #344464;
   font-family: Arial, Helvetica, sans-serif;
   justify-self: center;
-  align-self:center;
-  margin-bottom:2rem;
+  align-self: center;
+  margin-bottom: 2rem;
 }
 .form-section {
   margin: 2rem 2rem;
@@ -1155,10 +1171,10 @@ justify-content:center;
 .formflex {
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   width: 80%;
-  gap:0.5rem;
+  gap: 0.5rem;
 }
 .formsubhead {
   font-size: 1.3rem;
@@ -1209,8 +1225,8 @@ justify-content:center;
 .state {
   width: 25%;
 }
-.inputlocation{
-  height:4rem;
+.inputlocation {
+  height: 4rem;
 }
 .zip {
   width: 30%;
@@ -1259,7 +1275,7 @@ justify-content:center;
   font-weight: bolder;
   margin-top: 10%;
 }
-.formbottom{
+.formbottom {
   display: flex;
   flex-direction: column;
 }
@@ -1273,316 +1289,339 @@ justify-content:center;
   color: #344464;
   font-weight: bolder;
 }
-.goBack{
-    color:#c1f7d5;
-  margin-top:1.5rem;
-  }
+.goBack {
+  color: #c1f7d5;
+  margin-top: 1.5rem;
+}
 
 @media screen and (min-width: 490px) {
-.TreeImg1,
-.TreeImg3,
-.educationimg1,
-.educationimg3,
-.advocacyimg1,
-.advocacyimg3,
-.storiesImg1,
-.storiesImg3,
-.eventTreeImg1,
-.eventTreeImg3,
-.newsMeetingImg1,
-.newsMeetingImg3,
-.book1,
-.earth1,
-.flower1,
-.hand1,
-.heart1,
-.sun1,
-.person1,
-.people1,
-.teamMem1Img1,
-.teamMem2Img1,
-.teamMem3Img1,
-.teamMem4Img1,
-.teamMem5Img1,
-.teamMem6Img1,.WhatWeDoButtonAd2, .WhatWeDoButtonEd2, .WhatWeDoButtonTree2, .dots-container{
-  display: none;
-}
-.book2,
-.earth2,
-.flower2,
-.hand2,
-.heart2,
-.sun2,
-.person2,
-.people2 {
-  display: block;
-}
-nav{
-  flex-direction:row;
-  margin:2rem 0;
-  justify-content:space-between;
-  gap:0;
-}
-.issueflex{
-  margin-bottom:4rem;
-}
- .issueflexabout{
-   margin-bottom:4rem;
- } 
-.donatebtnflex{
-  display:flex;
-  width: 25%;
-  justify-content:end;
-  text-decoration: n;
-}
-.navbar {
-  display:flex;
-  flex-direction:column;
-  justify-content:start;
-  align-items:start;
-  gap:1rem;
-  width: 70%;
-}
-.navigation {
-  flex-direction: row;
-  align-items:start;
-  align-self:start;
-  gap:0;
-  width:100%
-  
-}
-.navOptions{
-  font-size:1rem;
-}
-.donatebutton {
-  align-self: center;
-  padding:1rem 1rem;
-  width:10rem;
-}
-.IssueSection {
-  background-image: url(./Assets/annie-spratt-135307-unsplash@2x.png);
-  background-size: cover;
-  background-position: 90%;
-}
-.slogan {
-  font-size: 2.3rem;
-  margin-bottom:5rem;
-}
-  .sloganabout {
-  font-size: 2.3rem;
-  margin-bottom:5rem;
-}
-.statement {
-  font-size: xx-large;
-  text-align:start;
-  padding: 3rem 2rem 3rem 2rem;
-  margin: 0;
-}
-.issuehead {
-  left: 2rem;
-}
-.ReadMore{
-  text-align:start;
-  padding:0 2rem 3rem 2rem;
-}
-.WhatWeDoButtonTree1, .WhatWeDoButtonEd1, .WhatWeDoButtonAd1{
-  display: block;
-  background-color: #c1f7d5;
-  text-decoration: none;
-  background-color: #c1f7d5;
-  border: 0.1rem solid #c1f7d5;
-  border-radius: 2rem;
-  color: #344464;
-  padding: 1rem 1rem;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  width:10rem;
-  text-align:center;
-margin-top:1rem;
-}
-.WhatWeDohead{
-  align-self:start;
-  margin:0;
-}
-.Tree-box,.Eductaion-box,.Advocacy-box{
-  flex-direction: row;
-  margin-top:1rem;
-  height:20rem
-}
-.Tree-box{
-  margin-top:2rem;
-}
-.Advocacy-box{
-  margin-bottom: 2rem;
-}
-.WhatWeDointro{
-  font-size: xx-large;
-  text-align: start;
-}
-.treeboxcontext, .educationboxcontext, .advocacyboxContext{
-  align-items: start;
-  justify-content: start;
-  align-items: start;
-  align-self: start;
-}
-.TreeImg2,.advocacyimg2,.educationimg2{
-  display: block;
-  width: 90%;
-  margin-top:-5rem;
-  margin-left:5rem;
-}
-.WhatWeDosubheading{
-text-align: start;
-align-self: start;
-font-size: x-large;
-}
-.WhatWeDoBoxtext{
-align-self: start;
-text-align: start;
-font-size: large;
-}
-.WhatWeDoButtonAd2, .WhatWeDoButtonEd2, .WhatWeDoButtonTree2{
-align-self: end;
- text-align:center;
- width: 10rem;
-}
-
-.treeImgBox, .eduImgBox, .adImgBox{
-align-items: end;
-gap:2rem;
-width: 70%;
-}
-.WhatWeDocards{
-align-items: center;
-}
-.treeboxcontext,.educationboxcontext,.advocacyboxContext{
-  width:45%;
-  gap:1rem;
-  
-}
-.treeImgBox, .eduImgBox, .adImgBox {
-      align-items: end;
-      gap: 2rem;
-      width: 70%;
+  .TreeImg1,
+  .TreeImg3,
+  .educationimg1,
+  .educationimg3,
+  .advocacyimg1,
+  .advocacyimg3,
+  .storiesImg1,
+  .storiesImg3,
+  .eventTreeImg1,
+  .eventTreeImg3,
+  .newsMeetingImg1,
+  .newsMeetingImg3,
+  .book1,
+  .earth1,
+  .flower1,
+  .hand1,
+  .heart1,
+  .sun1,
+  .person1,
+  .people1,
+  .teamMem1Img1,
+  .teamMem2Img1,
+  .teamMem3Img1,
+  .teamMem4Img1,
+  .teamMem5Img1,
+  .teamMem6Img1,
+  .WhatWeDoButtonAd2,
+  .WhatWeDoButtonEd2,
+  .WhatWeDoButtonTree2,
+  .dots-container {
+    display: none;
   }
-.infoSectionflex{
-  flex-direction: row;
-  justify-content: center;
-  gap: 0;
-  margin:2rem 0;
-} 
-.dywHead{
-  position:absolute;
-  margin-top:0.3rem;
-  left:1rem;
-  
-}
-.infosectionbox{
-  margin:0;
-}
-.infoSectionflex{
-  margin:3rem 0;
-}
-.storiesSection {
-  grid-template-rows: 4rem 20rem 20rem;
-}
-.storiesImg2 {
-  display: block;
-  width:80%;
-  align-self:start;
-  z-index: 1;
-}
-.storieshead {
-  align-self:start; 
-  position:relative;
-  z-index:2;
-  margin-left:4rem;
-}
-.storiesText {
-  z-index: 2;
-  padding: 3% 5%;
-  font-size: 1.3rem;
-  align-self:center;
-  text-align:start;
-  width:90%;
-  align-self:end;
-  margin-top:-3rem;
-  padding:2rem;
-}
-.storiesButton {
-  align-self: start;
-  margin-left:3.5rem;
-  width:10rem;
-}
-.eventSection{
-flex-direction: row;
-align-items: start;
-gap: 10%;
-margin: 0 10%;
-}
-.newsSection{
-flex-direction: row-reverse;
-align-items: start;
-gap: 10%;
-margin: 5% 10%;
-}
-.eventHead,.newsHead{
-position: relative;
-align-self: start;
-padding: 0.5rem 1.5rem;
-}
-.eventContext,.newsContext{
-align-items: start;
-height: 100%;
-}
-.eventsubheading1,.newssubheading1{
-text-align: start;
-font-size: x-large;
-align-self: start;
-}
-.eventtext,.newstext{
-text-align: start;
-}
-.eventButton, .newsButton{
-align-self: start;
-}
-.eventTreeImg2,.newsMeetingImg2{
-display: block;
-width: 50%;
-}
+  .book2,
+  .earth2,
+  .flower2,
+  .hand2,
+  .heart2,
+  .sun2,
+  .person2,
+  .people2 {
+    display: block;
+  }
+  nav {
+    flex-direction: row;
+    margin: 2rem 0;
+    justify-content: space-between;
+    gap: 0;
+  }
+  .issueflex {
+    margin-bottom: 4rem;
+  }
+  .issueflexabout {
+    margin-bottom: 4rem;
+  }
+  .donatebtnflex {
+    display: flex;
+    width: 25%;
+    justify-content: end;
+    text-decoration: n;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+    width: 70%;
+  }
+  .navigation {
+    flex-direction: row;
+    align-items: start;
+    align-self: start;
+    gap: 0;
+    width: 100%;
+  }
+  .navOptions {
+    font-size: 1rem;
+  }
+  .donatebutton {
+    align-self: center;
+    padding: 1rem 1rem;
+    width: 10rem;
+  }
+  .IssueSection {
+    background-image: url(./Assets/annie-spratt-135307-unsplash@2x.png);
+    background-size: cover;
+    background-position: 90%;
+  }
+  .slogan {
+    font-size: 2.3rem;
+    margin-bottom: 5rem;
+  }
+  .sloganabout {
+    font-size: 2.3rem;
+    margin-bottom: 5rem;
+  }
+  .statement {
+    font-size: xx-large;
+    text-align: start;
+    padding: 3rem 2rem 3rem 2rem;
+    margin: 0;
+  }
+  .issuehead {
+    left: 2rem;
+  }
+  .ReadMore {
+    text-align: start;
+    padding: 0 2rem 3rem 2rem;
+  }
+  .WhatWeDoButtonTree1,
+  .WhatWeDoButtonEd1,
+  .WhatWeDoButtonAd1 {
+    display: block;
+    background-color: #c1f7d5;
+    text-decoration: none;
+    background-color: #c1f7d5;
+    border: 0.1rem solid #c1f7d5;
+    border-radius: 2rem;
+    color: #344464;
+    padding: 1rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 10rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .WhatWeDohead {
+    align-self: start;
+    margin: 0;
+  }
+  .Tree-box,
+  .Eductaion-box,
+  .Advocacy-box {
+    flex-direction: row;
+    margin-top: 1rem;
+    height: 20rem;
+  }
+  .Tree-box {
+    margin-top: 2rem;
+  }
+  .Advocacy-box {
+    margin-bottom: 2rem;
+  }
+  .WhatWeDointro {
+    font-size: xx-large;
+    text-align: start;
+  }
+  .treeboxcontext,
+  .educationboxcontext,
+  .advocacyboxContext {
+    align-items: start;
+    justify-content: start;
+    align-items: start;
+    align-self: start;
+  }
+  .TreeImg2,
+  .advocacyimg2,
+  .educationimg2 {
+    display: block;
+    width: 90%;
+    margin-top: -5rem;
+    margin-left: 5rem;
+  }
+  .WhatWeDosubheading {
+    text-align: start;
+    align-self: start;
+    font-size: x-large;
+  }
+  .WhatWeDoBoxtext {
+    align-self: start;
+    text-align: start;
+    font-size: large;
+  }
+  .WhatWeDoButtonAd2,
+  .WhatWeDoButtonEd2,
+  .WhatWeDoButtonTree2 {
+    align-self: end;
+    text-align: center;
+    width: 10rem;
+  }
+
+  .treeImgBox,
+  .eduImgBox,
+  .adImgBox {
+    align-items: end;
+    gap: 2rem;
+    width: 70%;
+  }
+  .WhatWeDocards {
+    align-items: center;
+  }
+  .treeboxcontext,
+  .educationboxcontext,
+  .advocacyboxContext {
+    width: 45%;
+    gap: 1rem;
+  }
+  .treeImgBox,
+  .eduImgBox,
+  .adImgBox {
+    align-items: end;
+    gap: 2rem;
+    width: 70%;
+  }
+  .infoSectionflex {
+    flex-direction: row;
+    justify-content: center;
+    gap: 0;
+    margin: 2rem 0;
+  }
+  .dywHead {
+    position: absolute;
+    margin-top: 0.3rem;
+    left: 1rem;
+  }
+  .infosectionbox {
+    margin: 0;
+  }
+  .infoSectionflex {
+    margin: 3rem 0;
+  }
+  .storiesSection {
+    grid-template-rows: 4rem 20rem 20rem;
+  }
+  .storiesImg2 {
+    display: block;
+    width: 80%;
+    align-self: start;
+    z-index: 1;
+  }
+  .storieshead {
+    align-self: start;
+    position: relative;
+    z-index: 2;
+    margin-left: 4rem;
+  }
+  .storiesText {
+    z-index: 2;
+    padding: 3% 5%;
+    font-size: 1.3rem;
+    align-self: center;
+    text-align: start;
+    width: 90%;
+    align-self: end;
+    margin-top: -3rem;
+    padding: 2rem;
+  }
+  .storiesButton {
+    align-self: start;
+    margin-left: 3.5rem;
+    width: 10rem;
+  }
+  .eventSection {
+    flex-direction: row;
+    align-items: start;
+    gap: 10%;
+    margin: 0 10%;
+  }
+  .newsSection {
+    flex-direction: row-reverse;
+    align-items: start;
+    gap: 10%;
+    margin: 5% 10%;
+  }
+  .eventHead,
+  .newsHead {
+    position: relative;
+    align-self: start;
+    padding: 0.5rem 1.5rem;
+  }
+  .eventContext,
+  .newsContext {
+    align-items: start;
+    height: 100%;
+  }
+  .eventsubheading1,
+  .newssubheading1 {
+    text-align: start;
+    font-size: x-large;
+    align-self: start;
+  }
+  .eventtext,
+  .newstext {
+    text-align: start;
+  }
+  .eventButton,
+  .newsButton {
+    align-self: start;
+  }
+  .eventTreeImg2,
+  .newsMeetingImg2 {
+    display: block;
+    width: 50%;
+  }
   .footerSection {
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 10rem 10rem;
-}
-.footerSection > h3 {
-  grid-row: 1/2;
-  grid-column: 1/2;
-}
-.contactDetails {
-  grid-row: 1/2;
-  grid-column: 3/4;
-}
-.socials {
-  grid-row: 1/2;
-  grid-column: 2/3;
-}
-.learnMore {
-  grid-row: 2/3;
-  grid-column: 2/3;
-}
-.footerSlogan {
-  grid-row: 2/3;
-  grid-column: 3/4;
-  text-align: start;
-  width:3rem;
-  justify-self:start;
-}
-  .slogan3{
-  font-size: 2.5rem;
-    align-self:center;
-    text-align:start;
-    margin-right:2rem;
-}
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10rem 10rem;
+  }
+  .footerSection > h3 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .contactDetails {
+    grid-row: 1/2;
+    grid-column: 3/4;
+  }
+  .socials {
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+  .learnMore {
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  .footerSlogan {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    text-align: start;
+    width: 3rem;
+    justify-self: start;
+  }
+  .slogan3 {
+    font-size: 2.5rem;
+    align-self: center;
+    text-align: start;
+    margin-right: 2rem;
+  }
   .book2,
   .earth2,
   .flower2,
@@ -1665,373 +1704,397 @@ width: 50%;
     position: absolute;
     width: 10rem;
   }
-  .teamMem1Img2, .teamMem2Img2,.teamMem3Img2,.teamMem4Img2,.teamMem5Img2,.teamMem6Img2{
+  .teamMem1Img2,
+  .teamMem2Img2,
+  .teamMem3Img2,
+  .teamMem4Img2,
+  .teamMem5Img2,
+  .teamMem6Img2 {
     display: block;
     width: 100%;
     position: relative;
-   }
-.teamSectionHeader{
-display: flex;
-gap: 5rem;
-}
-.teamSectionText{
-text-align: start;
-font-size: medium;
-}
-.teamSectionGrid{
-gap: 2rem 1rem;
-}
-.teamMemText{
-width:95%;
-padding: 1rem 0.7rem;
-margin-left: 2rem;
-margin-top: -2rem;
-z-index: 1;
-}
-.teamSectionSubhead{
-  text-align: start;
-  margin-left: 0.3rem;
-}
-  .teamSectionHead{
-    align-self:start;
   }
-  .flex1, .flex2{
-    flex-direction:row;
+  .teamSectionHeader {
+    display: flex;
+    gap: 5rem;
   }
-  .impact1Head, .impact2Head, .impact3Head, .impact4Head{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+  .teamSectionText {
+    text-align: start;
+    font-size: medium;
+  }
+  .teamSectionGrid {
+    gap: 2rem 1rem;
+  }
+  .teamMemText {
+    width: 95%;
+    padding: 1rem 0.7rem;
+    margin-left: 2rem;
+    margin-top: -2rem;
+    z-index: 1;
+  }
+  .teamSectionSubhead {
+    text-align: start;
+    margin-left: 0.3rem;
+  }
+  .teamSectionHead {
+    align-self: start;
+  }
+  .flex1,
+  .flex2 {
+    flex-direction: row;
+  }
+  .impact1Head,
+  .impact2Head,
+  .impact3Head,
+  .impact4Head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .impact1Text,
-.impact2Text,
-.impact3Text,
-.impact4Text {
-  width:12rem;
-}
-  .cardheading>h3{
-    margin-right:5rem;
+  .impact2Text,
+  .impact3Text,
+  .impact4Text {
+    width: 12rem;
   }
-.cardicon{
-  top:0rem;
-}
-.labelclass{
-  font-size: 1rem;
-}
+  .cardheading > h3 {
+    margin-right: 5rem;
+  }
+  .cardicon {
+    top: 0rem;
+  }
+  .labelclass {
+    font-size: 1rem;
+  }
   .goBack {
-  font-weight: 300;
-  color: #c1f7d5;
-  text-decoration: underline;
-  font-size: large;
-  margin-top: 5%;
-}
-.formbottom{
+    font-weight: 300;
+    color: #c1f7d5;
+    text-decoration: underline;
+    font-size: large;
+    margin-top: 5%;
+  }
+  .formbottom {
     flex-direction: row-reverse;
     justify-content: start;
   }
-  .formbutton{
+  .formbutton {
     margin-left: 30%;
     align-self: center;
   }
-  .goBack{
+  .goBack {
     align-self: center;
   }
   .formbody {
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items:center;
-    }
-  .container{
-    align-self:center;
+    justify-content: center;
+    align-items: center;
   }
-  .form-section{
-    display:flex;
-    justify-content:center;
-    margin:2rem 0;
+  .container {
+    align-self: center;
   }
-  .background-logo{
-    margin:2rem 0;
-    width:20rem;
+  .form-section {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  .background-logo {
+    margin: 2rem 0;
+    width: 20rem;
   }
 }
 @media screen and (min-width: 1000px) {
-.TreeImg1,
-.TreeImg2,
-.educationimg1,
-.educationimg2,
-.advocacyimg1,
-.advocacyimg2,
-.storiesImg1,
-.storiesImg2,
-.eventTreeImg1,
-.eventTreeImg2,
-.newsMeetingImg1,
-.newsMeetingImg2, .WhatWeDoButtonAd1, .WhatWeDoButtonEd1, .WhatWeDoButtonTree1  {
-  display: none;
-}
-  nav{
-    flex-direction:row;
-    width:60rem;
+  .TreeImg1,
+  .TreeImg2,
+  .educationimg1,
+  .educationimg2,
+  .advocacyimg1,
+  .advocacyimg2,
+  .storiesImg1,
+  .storiesImg2,
+  .eventTreeImg1,
+  .eventTreeImg2,
+  .newsMeetingImg1,
+  .newsMeetingImg2,
+  .WhatWeDoButtonAd1,
+  .WhatWeDoButtonEd1,
+  .WhatWeDoButtonTree1 {
+    display: none;
   }
-  .logo{
-    width:30%;
-    
+  nav {
+    flex-direction: row;
+    width: 60rem;
   }
-  .navbar{
-    flex-direction:row;
-    justify-content:center;
-    align-items:center;
-    width :100%;
-    gap:0;
+  .logo {
+    width: 30%;
   }
-  .navigation{
-    align-self:center;
-    justify-content:end;
-    margin-left:19%;
+  .navbar {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 0;
   }
-  .navOptions{
-    text-align:center;
+  .navigation {
+    align-self: center;
+    justify-content: end;
+    margin-left: 19%;
   }
-  
+  .navOptions {
+    text-align: center;
+  }
+
   .IssueSection {
-  background-image: url(./Assets/annie-spratt-135307-unsplash@3x.png);
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: cover;
-}
-  .issueflex{
-    flex-direction:row-reverse;
-    margin:10% 0;
-    width:60rem;
+    background-image: url(./Assets/annie-spratt-135307-unsplash@3x.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
   }
-  .issueflexabout{
-    flex-direction:row;
-    margin:3rem 0;
-    margin-bottom:-5rem;
-    width:60rem;
+  .issueflex {
+    flex-direction: row-reverse;
+    margin: 10% 0;
+    width: 60rem;
   }
-  .issuestatement{
+  .issueflexabout {
+    flex-direction: row;
+    margin: 3rem 0;
+    margin-bottom: -5rem;
+    width: 60rem;
+  }
+  .issuestatement {
     width: 50%;
   }
-.slogan {
-  width:50%;
-  font-size: 3.5rem;
-  font-weight: 550;
-  align-self: start;
-  padding:0 10rem;
-}
+  .slogan {
+    width: 50%;
+    font-size: 3.5rem;
+    font-weight: 550;
+    align-self: start;
+    padding: 0 10rem;
+  }
   .sloganabout {
-  width:50%;
-  font-size: 3.5rem;
-  font-weight: 550;
-  align-self: start;
-    
-}
-  
-.statement {
-  font-size: 2.4rem;
-  text-align:start;
-  width:90%;
-}
+    width: 50%;
+    font-size: 3.5rem;
+    font-weight: 550;
+    align-self: start;
+  }
 
-.ReadMore {
-  font-size: large;
-}
-  .TakeActionflex{
-    width:60rem;
-    flex-direction:row;
-    margin:4rem 0;
+  .statement {
+    font-size: 2.4rem;
+    text-align: start;
+    width: 90%;
   }
-  .Tree-box,.Eductaion-box,.Advocacy-box{
-  flex-direction: column;
-  gap: 1rem;
-    height:30rem;
-    width:17rem;
-    margin:0;
-    padding:4rem 0 0 0;
-    align-self:start;
-}
-.TreeImg3,.advocacyimg3,.educationimg3{
-  display: block;
-  width: 17rem;
-  margin-top: -8rem;
-  margin-left: 4rem;
-  align-self: center;
-  position:absolute;
-  overflow: hidden;
-}
-.WhatWeDoSection{
-  align-items: center;
-}
-.treeboxcontext, .educationboxcontext, .advocacyboxContext {
-  gap: 1rem;
-  margin:2rem;
-  width:14rem;
-  margin-top:4rem;
-}
-  .WhatWeDoflex{
-    width:60rem;
-    margin:4rem 0;
-  }
-  
-.WhatWeDocards{
-  flex-direction: row;
-  gap: 1rem;
-  margin:0;
-  margin-top:5rem;
-  justify-content: start;
-  align-items: center;
-  align-self: center;
-  gap: 3rem;
-}
-.WhatWeDointro {
-  font-size: 2.3rem;
-  margin:0;
-}
-.WhatWeDoButtonTree2, .WhatWeDoButtonEd2, .WhatWeDoButtonAd2{
-  display: block;
-  background-color: #c1f7d5;
-  text-decoration: none;
-  background-color: #c1f7d5;
-  border: 0.1rem solid #c1f7d5;
-  border-radius: 2rem;
-  color: #344464;
-  padding: 1rem 1rem;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  align-self: start;
 
-}
-  .WhatWeDoBoxtext{
-    font-size:0.9rem;
+  .ReadMore {
+    font-size: large;
   }
-  .WhatWeDosubheading{
-    font-size:1.3rem;
+  .TakeActionflex {
+    width: 60rem;
+    flex-direction: row;
+    margin: 4rem 0;
   }
-  .infoSectionflex{
-    width:60rem;
-    margin:3rem 0;
+  .Tree-box,
+  .Eductaion-box,
+  .Advocacy-box {
+    flex-direction: column;
+    gap: 1rem;
+    height: 30rem;
+    width: 17rem;
+    margin: 0;
+    padding: 4rem 0 0 0;
+    align-self: start;
   }
-  .slogan2{
-  font-size: 4rem;
-}
-    .infoSectionflex{
-  margin:5rem 0;
-}
-  .storiesSectionflex{
-    flex-direction:row-reverse;
-    width:60rem; 
-    gap:0;
-    position:relative;
+  .TreeImg3,
+  .advocacyimg3,
+  .educationimg3 {
+    display: block;
+    width: 17rem;
+    margin-top: -8rem;
+    margin-left: 4rem;
+    align-self: center;
+    position: absolute;
+    overflow: hidden;
+  }
+  .WhatWeDoSection {
     align-items: center;
   }
-.storieshead {
-  position:absolute;
-  top:-1rem;
-}
-.storiesImg3 {
-  display: block;
-  width: 50%;
-  align-self: center;
-}
-.storiesText {
-  align-self: center;
-  justify-self: end;
-  margin-right:-3rem;
-  font-size:1.8rem;
-}
-.storiesButton {
-  position:absolute;
-  top:24rem;
-  left:-3.5rem;
-  z-index:2;
-}
-  .eventSection, .newsSection{
-    width:60rem;
+  .treeboxcontext,
+  .educationboxcontext,
+  .advocacyboxContext {
+    gap: 1rem;
+    margin: 2rem;
+    width: 14rem;
+    margin-top: 4rem;
   }
-  .slogan3{
-    width:60rem;
-  font-size: 3.5rem;
-    align-self:center;
-    text-align:start;
-    margin-right:2rem;
-}
-.eventTreeImg3,.newsMeetingImg3{
-  display: block;
-  width: 50%;
-}
-.eventsubheading1, .newssubheading1{
-  font-size: xx-large;
-  margin-right: 35%;
-}
-.eventContext,.newsContext{
-gap: 2rem;
-}
-.eventtext, .newstext {
-  margin-right: 20%;
-  font-size: medium;
-}
-.eventHead,.newsHead{
-padding: 0.5rem 3rem;
-}
-  .subsflex{
-    flex-direction:column;
-    width:60rem;
-    margin:4rem 0;
+  .WhatWeDoflex {
+    width: 60rem;
+    margin: 4rem 0;
   }
-  .subscribeText{
-    margin:0;
+
+  .WhatWeDocards {
+    flex-direction: row;
+    gap: 1rem;
+    margin: 0;
+    margin-top: 5rem;
+    justify-content: start;
+    align-items: center;
+    align-self: center;
+    gap: 3rem;
   }
-  .subscribeSection{
-    display:flex;
+  .WhatWeDointro {
+    font-size: 2.3rem;
+    margin: 0;
   }
-  .subscribeForm{
-    display:flex;
+  .WhatWeDoButtonTree2,
+  .WhatWeDoButtonEd2,
+  .WhatWeDoButtonAd2 {
+    display: block;
+    background-color: #c1f7d5;
+    text-decoration: none;
+    background-color: #c1f7d5;
+    border: 0.1rem solid #c1f7d5;
+    border-radius: 2rem;
+    color: #344464;
+    padding: 1rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    align-self: start;
   }
-  .subsinputsection{
-    justify-content:space-between;
-gap:0;
+  .WhatWeDoBoxtext {
+    font-size: 0.9rem;
   }
-  .footerflex{
-    width:60rem;
+  .WhatWeDosubheading {
+    font-size: 1.3rem;
   }
-    .footerSection {
-  grid-template-columns: repeat(5,1fr);
-  grid-template-rows: 10rem;
-}
-.footerSection > h3 {
-  grid-row: 1/2;
-  grid-column: 1/2;
-}
-.contactDetails {
-  grid-row: 1/2;
-  grid-column: 2/3;
-}
-.socials {
-  grid-row: 1/2;
-  grid-column: 4/5;
-}
-.learnMore {
-  grid-row: 1/2;
-  grid-column: 3/4;
-}
-.footerSlogan {
-  grid-row: 1/2;
-  grid-column: 5/6;
-  text-align: end;
-  width:10rem;
-  justify-self:end;
-  align-self:center;
-}
+  .infoSectionflex {
+    width: 60rem;
+    margin: 3rem 0;
+  }
+  .slogan2 {
+    font-size: 4rem;
+  }
+  .infoSectionflex {
+    margin: 5rem 0;
+  }
+  .storiesSectionflex {
+    flex-direction: row-reverse;
+    width: 60rem;
+    gap: 0;
+    position: relative;
+    align-items: center;
+  }
+  .storieshead {
+    position: absolute;
+    top: -1rem;
+    right: 17rem;
+  }
+  .storiesImg3 {
+    display: block;
+    width: 50%;
+    align-self: center;
+  }
+  .storiesText {
+    align-self: center;
+    justify-self: end;
+    margin-right: -3rem;
+    font-size: 1.8rem;
+  }
+  .storiesButton {
+    position: absolute;
+    top: 24rem;
+    left: -3.5rem;
+    z-index: 2;
+  }
+  .eventSection,
+  .newsSection {
+    width: 60rem;
+  }
+  .slogan3 {
+    width: 60rem;
+    font-size: 3.5rem;
+    align-self: center;
+    text-align: start;
+    margin-right: 2rem;
+  }
+  .eventTreeImg3,
+  .newsMeetingImg3 {
+    display: block;
+    width: 50%;
+  }
+  .eventsubheading1,
+  .newssubheading1 {
+    font-size: xx-large;
+    margin-right: 35%;
+  }
+  .eventContext,
+  .newsContext {
+    gap: 2rem;
+  }
+  .eventtext,
+  .newstext {
+    margin-right: 20%;
+    font-size: medium;
+  }
+  .eventHead,
+  .newsHead {
+    padding: 0.5rem 3rem;
+  }
+  .subsflex {
+    flex-direction: column;
+    width: 60rem;
+    margin: 4rem 0;
+  }
+  .subscribeText {
+    margin: 0;
+  }
+  .subscribeSection {
+    display: flex;
+  }
+  .subscribeForm {
+    display: flex;
+  }
+  .subsinputsection {
+    justify-content: space-between;
+    gap: 0;
+  }
+  .footerflex {
+    width: 60rem;
+  }
+  .footerSection {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 10rem;
+  }
+  .footerSection > h3 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .contactDetails {
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+  .socials {
+    grid-row: 1/2;
+    grid-column: 4/5;
+  }
+  .learnMore {
+    grid-row: 1/2;
+    grid-column: 3/4;
+  }
+  .footerSlogan {
+    grid-row: 1/2;
+    grid-column: 5/6;
+    text-align: end;
+    width: 10rem;
+    justify-self: end;
+    align-self: center;
+  }
   .missionAndValuesSection {
     grid-template-rows: 4rem 8rem 15rem 15rem;
-    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-columns: repeat(4, 1fr);
     background-color: #344464;
     position: relative;
     gap: 0 2rem;
-    width:60rem;
+    width: 60rem;
   }
   .hand {
     grid-row: 3/4;
@@ -2041,24 +2104,23 @@ gap:0;
     grid-row: 4/5;
     grid-column: 4/5;
   }
-  .together{
-    grid-row:4/5;
-    grid-column:3/4;
+  .together {
+    grid-row: 4/5;
+    grid-column: 3/4;
   }
-  .teamSection{
-    width:60rem;
+  .teamSection {
+    width: 60rem;
   }
-  .teamSectionGrid{
+  .teamSectionGrid {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr) 0rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr) 0rem;
   }
-  .teamMemText{
+  .teamMemText {
     padding: 1rem 0.9rem;
     margin-left: 2rem;
-
   }
-  .teamSectionSubhead{
+  .teamSectionSubhead {
     font-size: xx-large;
   }
 
@@ -2086,48 +2148,47 @@ gap:0;
     grid-row: 2/3;
     grid-column: 3/4;
   }
-  .teamSectionText{
+  .teamSectionText {
     padding: 1rem 5rem;
     font-size: large;
   }
-  .impactSectionflex{
-    width:60rem;
+  .impactSectionflex {
+    width: 60rem;
   }
-  .flexboximpact{
-    display:flex;
-    margin:3rem 0;
+  .flexboximpact {
+    display: flex;
+    margin: 3rem 0;
   }
-  .cardflex{
-    width:60rem;
+  .cardflex {
+    width: 60rem;
   }
-  .formbody{
+  .formbody {
     flex-direction: row-reverse;
     justify-content: center;
-    align-items:center;
-    width:60rem;
-    margin:3rem 0;
+    align-items: center;
+    width: 60rem;
+    margin: 3rem 0;
   }
-  .background-logo{
+  .background-logo {
     margin: 0;
     align-self: start;
     font-size: 4.5rem;
-    width:25rem;
-    margin-left:auto;
-
+    width: 25rem;
+    margin-left: auto;
   }
-  .container{
+  .container {
     align-self: center;
-    width:50%;
+    width: 50%;
   }
-  .formflex{
-    justify-content:center;
-    align-items:center;
+  .formflex {
+    justify-content: center;
+    align-items: center;
   }
-  .formbutton{
-    width:40rem;
+  .formbutton {
+    width: 40rem;
   }
-  .statement{
+  .statement {
     margin: 0;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
   }
 }
