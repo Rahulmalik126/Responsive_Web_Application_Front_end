@@ -1196,7 +1196,7 @@ justify-content:center;
 
 .inputlocation {
   display: flex;
-  gap: 0%;
+  gap: 5%;
 }
 .city,
 .state,
