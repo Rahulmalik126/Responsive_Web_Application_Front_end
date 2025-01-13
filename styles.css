@@ -824,7 +824,6 @@ nav {
 }
 .heading {
   font-size: 0.8rem;
-  width: 5;
 }
 .openbookText,
 .togetherText,
@@ -1803,6 +1802,16 @@ nav {
     margin: 2rem 0;
     width: 20rem;
   }
+  .openbookText,
+  .togetherText,
+  .handText,
+  .loveText,
+  .openmindText,
+  .optimisticText,
+  .plantText,
+  .protectText {
+    font-size: small;
+  }
 }
 @media screen and (min-width: 1000px) {
   .TreeImg1,
@@ -2096,6 +2105,19 @@ nav {
     gap: 0 2rem;
     width: 60rem;
   }
+  .missionAndValuesintro{
+    font-size :1.5rem;
+  }
+  .openbookText,
+.togetherText,
+.handText,
+.loveText,
+.openmindText,
+.optimisticText,
+.plantText,
+.protectText {
+  font-size: medium;
+}
   .hand {
     grid-row: 3/4;
     grid-column: 4/5;
